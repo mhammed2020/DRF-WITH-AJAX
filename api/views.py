@@ -16,7 +16,7 @@ def apiOverview(request):
 		}
 
 
-    return JsonResponse("API REQUEST", safe =False)
+    return Response(api_urls)
     
 
 
